@@ -2,6 +2,13 @@
 <html lang="pl">
   <head>
     <title>Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,30 +18,39 @@
     />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a href="" target="_blank"
-          ><span class="logo__blue-part">Web</span
-          ><span class="logo__black-part">Studio</span></a
-        >
+    <header class="container">
+      <div class="main-header-wrapper">
+        <div class="logo-nav-wrapper">
+          <div class="logo logo__wrapper">
+            <a href="" target="_blank"
+              ><span class="logo__blue-part">Web</span
+              ><span class="logo__black-part">Studio</span></a
+            >
+          </div>
+
+          <nav>
+            <ul class="nav">
+              <li>
+                <a class="nav__format nav__format-active" href="">Agencja</a>
+              </li>
+              <li>
+                <a class="nav__format" href="portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="nav__format" href="">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <adress class="adress adress__wrapper">
+          <a class="adress__format" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+
+          <a class="adress__format" href="tel:+48111111111">+48 111 111 111</a>
+        </adress>
       </div>
-
-      <nav>
-        <ul class="nav">
-          <li><a class="nav__format nav__format-active" href="">Agencja</a></li>
-          <li><a class="nav__format" href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav__format" href="">Kontakt</a></li>
-        </ul>
-      </nav>
-      <adress class="adress">
-        <a class="adress__format" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-
-        <a class="adress__format" href="tel:+48111111111">+48 111 111 111</a>
-      </adress>
     </header>
-    <main>
+    <main class="container">
       <section>
         <div class="main-header">
           <h1 class="main-header__text">
@@ -46,7 +62,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="container">
         <ul>
           <li>
             <h2 class="lorem-ipsum lorem-ipsum__header">lorem ipsum</h2>
@@ -78,7 +94,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <h2 class="main-business">Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -107,7 +123,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <h2 class="our-team">Nasz zespół</h2>
         <ul>
           <li>
@@ -154,23 +170,30 @@
       </section>
     </main>
     <footer class="footer_wrapper">
-      <div class="logo">
-        <a href="" target="_blank"
-          ><span class="logo__blue-part">Web</span
-          ><span class="logo__white-part">Studio</span></a
-        >
+      <div class="container">
+        <div class="logo logo__container">
+          <a href="" target="_blank"
+            ><span class="logo__blue-part">Web</span
+            ><span class="logo__white-part">Studio</span></a
+          >
+        </div>
+        <adress class="adress">
+          <div class="adress__format-footer">
+            <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+          </div>
+
+          <div class="email-wrapper">
+            <a class="adress__format-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </div>
+          <div>
+            <a class="adress__format-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </div>
+        </adress>
       </div>
-      <adress>
-        <p class="adress adress__format-footer">
-          m. Warszawa, Aleje Jerozolimskie 21
-        </p>
-        <a class="adress adress__format-footer" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="adress adress__format-footer" href="tel:+48111111111"
-          >+48 111 111 111</a
-        >
-      </adress>
     </footer>
   </body>
 </html>
