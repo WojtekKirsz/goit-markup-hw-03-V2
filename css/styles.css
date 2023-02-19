@@ -176,6 +176,12 @@ body {
   color: var(--light-grey);
 }
 
+.lorem-ipsum-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 /* LOREM IPSUM END*/
 
 /* MAIN BUSINESS START*/
@@ -186,6 +192,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.main-business-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 /* MAIN BUSINESS END*/
