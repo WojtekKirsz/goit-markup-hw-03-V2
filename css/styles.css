@@ -1,0 +1,255 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--standard-black);
+  text-decoration: none;
+}
+
+:root {
+  --standard-blue: #2196f3;
+  --standard-white: #ffffff;
+  --standard-black: #212121;
+  --dark-black: #000000;
+  --light-grey: #757575;
+  --background-button-color: #f5f4fa;
+  --background-black-color: #2f303a;
+}
+
+/* LOGO START */
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo__blue-part {
+  font-weight: 700;
+  color: var(--standard-blue);
+}
+
+.logo__black-part {
+  color: var(--dark-black);
+}
+
+.logo__white-part {
+  color: var(--standard-white);
+}
+
+/* LOGO END */
+
+/* NAV START */
+
+.nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav__format {
+  color: var(--standard-black);
+  cursor: pointer;
+}
+
+.nav__format-active {
+  color: var(--standard-blue);
+}
+
+.adress {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.adress__format {
+  color: var(--light-grey);
+}
+
+.nav__format:hover,
+.nav__format:focus,
+.adress__format:hover,
+.adress__format:focus,
+.adress__format-footer:hover,
+.adress__format-footer:focus {
+  color: var(--standard-blue);
+}
+
+/* NAV END */
+
+/* MAIN HEADER START*/
+
+.main-header {
+  background-color: var(--background-black-color);
+}
+
+.main-header__text {
+  color: var(--standard-white);
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+  background: var(--standard-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+}
+
+.button__order-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--standard-white);
+}
+
+/* MAIN HEADER END*/
+
+/* LOREM IPSUM START*/
+
+.lorem-ipsum {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.lorem-ipsum__header {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.lorem-ipsum__text {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--light-grey);
+}
+
+/* LOREM IPSUM END*/
+
+/* MAIN BUSINESS START*/
+
+.main-business {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* MAIN BUSINESS END*/
+
+/* OUR TEAM START*/
+
+.our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-team__individual {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-team__job-title {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--light-grey);
+}
+
+/* OUR TEAM END */
+
+/* FOOTER START */
+
+.footer_wrapper {
+  background-color: var(--background-black-color);
+}
+
+.adress__format-footer {
+  color: var(--standard-white);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* FOOTER END */
+
+/* PORTFOLIO START */
+
+.portolio__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--standard-black);
+}
+
+.portfolio__text {
+  color: var(--light-grey);
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* PORTFOLIO END */
+
+/* BUTTON PORTFOLIO START */
+
+.button-portfolio {
+  height: 38px;
+  width: 121px;
+  left: 510px;
+  top: 174px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: none;
+  cursor: pointer;
+  background: var(--background-button-color);
+}
+
+.button-portfolio__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--standard-black);
+}
+
+.button-portfolio__text:hover,
+.button-portfolio__text:focus {
+  color: var(--standard-white);
+  background: var(--standard-blue);
+}
+
+/* BUTTON PORTFOLIO END */
