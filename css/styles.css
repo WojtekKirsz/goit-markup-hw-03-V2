@@ -200,6 +200,10 @@ body {
   text-align: center;
 }
 
+.our-team-container {
+  background-color: var(--background-button-color);
+}
+
 .our-team__individual {
   font-size: 16px;
   font-weight: 500;
@@ -214,6 +218,12 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--light-grey);
+}
+
+.our-team__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 /* OUR TEAM END */
