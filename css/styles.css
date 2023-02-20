@@ -115,12 +115,20 @@ body {
   justify-content: space-between;
 }
 
+.site-nav {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 94px;
+}
+
 /* NAV END */
 
 /* MAIN HEADER START*/
 
 .main-header {
   background-color: var(--background-black-color);
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .main-header__text {
@@ -130,19 +138,21 @@ body {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-bottom: 30px;
 }
 
 .button {
   height: 50px;
   width: 200px;
-  left: 700px;
-  top: 430px;
   border-radius: 4px;
   background: var(--standard-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   cursor: pointer;
+  margin-bottom: 200px;
 }
 
 .button__order-text {
@@ -153,6 +163,13 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--standard-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+}
+
+.main-container {
+  padding-bottom: 94px;
 }
 
 /* MAIN HEADER END*/
@@ -180,6 +197,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 /* LOREM IPSUM END*/
@@ -192,12 +210,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .main-business-container {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 /* MAIN BUSINESS END*/
@@ -210,10 +230,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .our-team-container {
   background-color: var(--background-button-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-team__individual {
@@ -222,6 +245,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   text-align: center;
+  padding: 30px 0px 10px;
 }
 
 .our-team__job-title {
@@ -230,12 +254,20 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--light-grey);
+  padding-bottom: 30px;
 }
 
 .our-team__wrapper {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+
+.our-team__box {
+  background: var(--standard-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* OUR TEAM END */
@@ -271,7 +303,6 @@ body {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: left;
   color: var(--standard-black);
 }
 
@@ -280,12 +311,36 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  text-align: left;
+  margin-top: 4px;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
+  max-width: 1200px;
+}
+
+.portfolio-box {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 /* PORTFOLIO END */
 
 /* BUTTON PORTFOLIO START */
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 94px;
+}
 
 .button-portfolio {
   height: 38px;
