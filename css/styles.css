@@ -116,8 +116,13 @@ body {
 }
 
 .site-nav {
-  border-bottom: 1px solid #ececec;
   margin-bottom: 94px;
+}
+
+.site-nav::after {
+  border-bottom: 1px solid #ececec;
+  content: "";
+  display: block;
 }
 
 /* NAV END */
